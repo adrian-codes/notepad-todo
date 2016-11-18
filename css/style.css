@@ -1,0 +1,66 @@
+.container {
+  width: 40vw;
+  background-color: rgb(250, 250, 250);
+  min-height: 60vh;
+}
+h2 {
+  background-color: rgb(242, 184, 77);
+  padding: 10px;
+}
+form {
+  margin-left: 7%;
+  position: relative;
+}
+input {
+  width: 70%;
+  height: 25px;
+}
+li {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add {
+  background-color: rgb(242, 184, 77);
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 7px;
+  padding: 7px;
+  position: absolute;
+  right: 11px;
+}
+.deleteSelected {
+  position: absolute;
+  right: 9px;
+  background-color: #a94442;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 7px;
+  padding: 10px;
+}
+.delete {
+  position: absolute;
+  right: 0px;
+  bottom: 3px;
+  background-color: #a94442;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 7px;
+  padding: 10px;
+}
+.selected {
+  background-color: lightgray;
+}
+div#response {
+  color: red;
+  margin-left: 7%;
+}
+div#selected {
+  position: relative;
+  height: 50px;
+}
